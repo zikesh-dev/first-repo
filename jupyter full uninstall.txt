@@ -1,0 +1,19 @@
+Copy and create a bat file using Encoding ANSI with all the pip commands given below:
+
+pip uninstall Jupyter
+pip uninstall jupyter
+pip uninstall jupyter_core
+pip uninstall jupyter-client
+pip uninstall jupyter-console
+pip uninstall jupyterlab_pygments
+pip uninstall notebook
+pip uninstall qtconsole
+pip uninstall nbconvert
+pip uninstall nbformat
+
+Jupyter stores its configuration files, custom CSS, and settings in certain directories.
+You will need to manually delete these directories.
+
+C:\Users\<YourUsername>\.jupyter\
+
+C:\Users\<YourUsername>\AppData\Roaming\jupyter\
