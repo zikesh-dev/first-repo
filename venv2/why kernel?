@@ -1,0 +1,26 @@
+| Task                            | Do You Need to Activate venv?         |
+| ------------------------------- | ------------------------------------   |
+| Installing packages with pip    | ✅ Recommended                        |
+| Running Jupyter from terminal   | ✅ Yes                                |
+| Registering as a Jupyter kernel | ❌ No, use full path                  |
+| Using in VS Code                | ❌ No, just select interpreter        |
+| Automation/Scripting            | ❌ No, use `myenv\Scripts\python.exe` |
+
+| Aspect                               | Activation (`activate`) | Direct Reference (`python.exe`)     |
+| ------------------------------------ | ----------------------- | ---------------------------------   |
+| Required to run pip/jupyter manually | ✅ Yes                   | ❌ No (just give full path)        |
+| Needed for command-line use          | ✅ Yes                   | ❌ No                              |
+| Needed for VS Code/Jupyter           | ❌ Optional              | ✅ Yes (for custom setup)          |
+| Needed for `ipykernel install`       | ❌ Optional              | ✅ Yes (when referencing directly) |
+
+  | Task                                                       | Recommended                     |
+| ---------------------------------------------------------- | --------------------------------- |
+| You're working entirely in terminal (CMD) with one venv    | Just `activate` and run `jupyter` |
+| You're using VS Code, JupyterLab, or want kernel-switching | **Register venv as kernel**       |
+| Sharing notebooks or working in multiple projects          | **Register venv as kernel**       |
+
+  | Action                             | What It Does                                            | Best For                                                                                              |
+| ---------------------------------- | ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| ✅ `activate` + `jupyter notebook`  | Runs Jupyter using the active environment               | Works fine if you're only using Jupyter inside that same terminal                                     |
+| ✅ `ipykernel install --name=myenv` | Adds the virtual environment as a **kernel** to Jupyter | Lets you choose and switch environments directly inside Jupyter, **regardless of how you started it** |
+  
