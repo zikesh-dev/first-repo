@@ -4,6 +4,6 @@ pip install notebook
 Open Jupyter Notebook: jupyter notebook
 Open VSCode: code
 
-Version checking:
+Version:
 pip --version
 python --version
