@@ -1,12 +1,11 @@
 # Install from the command line (cmd), follow the step:
 pip install notebook
 
-Open Jupyter Notebook: jupyter notebook
-Open VSCode: code
+# Open Jupyter Notebook: jupyter notebook
+# Open VSCode: code
 
-Version:
-pip --version
+# Version:
 python --version
 
-# Install from Jupyter Notebook
+# Install from Jupyter Notebook:
 !pip install pandas
