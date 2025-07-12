@@ -1,8 +1,8 @@
 import pandas as pd
 
 # 1. Read the Excel file
-df = pd.read_excel('your_file.xlsx') # Single sheet
-df = pd.read_excel('your_file.xlsx', sheet_name='Sheet1') # Multiple sheets
+df = pd.read_excel('your_file.xlsx')                        # Use for single sheet
+df = pd.read_excel('your_file.xlsx', sheet_name='Sheet1')   # Use for multiple sheets
 
 # 2. Check basic info
 print(df.head())           # First 5 rows
