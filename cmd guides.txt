@@ -1,4 +1,4 @@
-To install from the command line (cmd), follow the step:
+# To install from the command line (cmd), follow the step:
 pip install notebook
 
 Open Jupyter Notebook: jupyter notebook
