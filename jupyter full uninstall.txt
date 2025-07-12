@@ -11,8 +11,8 @@ pip uninstall qtconsole
 pip uninstall nbconvert
 pip uninstall nbformat
 
-Jupyter stores its configuration files, custom CSS, and settings in certain directories.
-You will need to manually delete these directories.
+# Jupyter stores its configuration files, custom CSS, and settings in certain directories.
+# You will need to manually delete these directories.
 
 C:\Users\<YourUsername>\.jupyter\
 
