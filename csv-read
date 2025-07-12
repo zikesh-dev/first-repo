@@ -1,0 +1,21 @@
+import pandas as pd
+
+# 1. Read the CSV file
+df = pd.read_csv('your_file.csv')
+  
+# 2. Check basic info
+print(df.head())           # First 5 rows
+print(df.info())           # Data types & nulls
+print(df.shape)            # (rows, columns)
+print(df.columns)          # Column names
+print(df.describe())       # Statistical summary
+print(df.isnull().sum())   # Missing values
+
+# 3. Drop a column (replace 'Age' with your actual column name)
+df = df.drop(columns=['Age'])
+  
+# 4. Rename a column (replace 'w/c' with your actual column name)
+df.rename(columns={'w/c': 'water_cement_ratio'}, inplace=True)
+  
+# 5. Overwrite the original CSV file
+df.to_csv('your_file.csv', index=False)
