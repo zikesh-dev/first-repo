@@ -1,4 +1,4 @@
-Copy and create a bat file using Encoding ANSI with all the pip commands given below:
+# Copy and create a bat file using Encoding ANSI with all the pip commands given below:
 
 pip uninstall Jupyter
 pip uninstall jupyter
