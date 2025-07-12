@@ -31,4 +31,3 @@ pip freeze > requirements.txt
 
 Others (or you) can recreate the environment later with:
 pip install -r requirements.txt
-
