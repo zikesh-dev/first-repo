@@ -1,0 +1,28 @@
+🔹 Add the virtual environment to jupyter after activating the venv in cmd
+To use your virtual env (myvenv) as a Jupyter kernel:
+
+pip install ipykernel
+python -m ipykernel install --user --name=myvenv --display-name "My Project (myenv)"
+
+Then it’ll show up as a selectable kernel in Jupyter! it'll show up as:
+Python [My Project (myenv)]
+
+🧠 1. Add venv to Jupyter kernel WITHOUT activating
+You don't need to activate the virtual environment. Just run the command using its Python path:
+
+✅ CMD Example:
+myenv\Scripts\python.exe -m ipykernel install --user --name=myenv --display-name "My Project (myenv)"
+
+This registers the venv as a selectable kernel, even if it's not currently activated.
+
+🧠 2. Use venv in VS Code WITHOUT activating
+VS Code detects virtual environments automatically from the workspace folder.
+
+✅ Steps:
+Open the project folder in VS Code (the one containing your venv).
+
+Press Ctrl + Shift + P → "Python: Select Interpreter".
+
+Choose the interpreter that points to your myenv\Scripts\python.exe.
+
+💡 No need to activate manually — VS Code handles environment activation internally.
