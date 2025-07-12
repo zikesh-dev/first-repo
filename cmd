@@ -6,6 +6,9 @@ pip --version        # Check pip version
 pip install notebook
 pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
 
+# Install from requirements.txt
+pip install -r requirements.txt
+
 # List all installed packages	pip list
 pip list
 
