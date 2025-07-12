@@ -1,0 +1,22 @@
+import pandas as pd
+
+# 1. Read the Excel file
+df = pd.read_excel('your_file.xlsx') # Single sheet
+df = pd.read_excel('your_file.xlsx', sheet_name='Sheet1') # Multiple sheets
+
+# 2. Check basic info
+print(df.head())           # First 5 rows
+print(df.info())           # Column types & non-null values
+print(df.shape)            # (rows, columns)
+print(df.columns)          # Column names
+print(df.describe())       # Stats summary
+print(df.isnull().sum())   # Missing values per column
+
+# 3. Drop a column (replace 'Age' with your actual column name)
+df = df.drop(columns=['Age'])
+
+# 4. Rename a column (replace with your actual names)
+df.rename(columns={'w/c': 'water_cement_ratio'}, inplace=True)
+
+# 5. Overwrite the Excel file
+df.to_excel('your_file.xlsx', index=False)
