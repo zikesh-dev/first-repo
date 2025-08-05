@@ -1,3 +1,6 @@
+# First Install the Modules
+!pip install pandas openpyxl
+
 import pandas as pd
 
 # 1. Read the Excel file
