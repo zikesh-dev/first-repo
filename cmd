@@ -1,23 +1,24 @@
 # Verify Python and pip Installation:
-python --version     # Check Python version
-pip --version        # Check pip version
+  python --version     # Check Python version
+  pip --version        # Check pip version
 
 # Install from the window command line (cmd), follow the step:
-pip install notebook
-pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
+  pip install notebook
+  pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
 
 # Install from requirements.txt
-pip install -r requirements.txt
+  pip install -r requirements.txt
 
-# List all installed packages	pip list
-pip list
+# List all installed packages
+  pip list
 
 # Open Jupyter Notebook from the window command line (cmd):
-jupyter notebook
+  jupyter notebook
 # Open VSCode from the window command line (cmd):
-code
+  code
 
 # BONUS
 # Install Packages Inside Jupyter Notebook:
-!pip install pandas
-!pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
+  !pip install pandas
+  !pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
+
