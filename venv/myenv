@@ -1,23 +1,23 @@
 # Create a Virtual Environment
-python -m venv myenv       # Creates a folder named (myenv*) with its own Python and pip
+  python -m venv myenv       # Creates a folder named (myenv*) with its own Python and pip
 
 # Activate the Virtual Environment from CMD (Windows):
-myenv*\Scripts\activate
+  myenv*\Scripts\activate
 
 # Install a specific version of a package:
-pip install package_name==version
+  pip install package_name==version
   
 🔸 Examples:
-pip install pandas==1.5.3
-pip install numpy==1.24.2
-pip install matplotlib==3.7.1
+  pip install pandas==1.5.3
+  pip install numpy==1.24.2
+  pip install matplotlib==3.7.1
 
 # Check Installed Version
-pip list
+  pip list
 
 # Launch Jupyter or VSCode from the Environment
-jupyter notebook
-code
+  jupyter notebook
+  code
 
 # Use the Environment in VSCode
     Open your project folder in VSCode
@@ -27,7 +27,7 @@ code
 
 📌 Tip: Save Your Environment
 After installing packages, save the list for future use:
-pip freeze > requirements.txt
+  pip freeze > requirements.txt
 
 Others (or you) can recreate the environment later with:
-pip install -r requirements.txt
+  pip install -r requirements.txt
