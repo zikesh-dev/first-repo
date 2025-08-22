@@ -19,7 +19,7 @@
   code
 
 # Use the Environment in VSCode
-    Open your project folder in VSCode
+    Open the project folder in VS Code (the one containing your venv).
     Press Ctrl+Shift+P → Search: Python: Select Interpreter
     Choose the one from .venv or myenv\Scripts\python.exe
     VSCode will now use the virtual environment Python.
