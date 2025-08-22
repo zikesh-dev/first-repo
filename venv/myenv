@@ -1,5 +1,5 @@
 # Create a Virtual Environment
-  python -m venv myenv       # Creates a folder named (myenv*) with its own Python and pip
+  python -m venv myenv*       # Creates a folder named (myenv*) with its own Python and pip
 
 # Activate the Virtual Environment from CMD (Windows):
   myenv*\Scripts\activate
@@ -15,7 +15,7 @@
 # Check Installed Version
   pip list
 
-# Launch Jupyter or VSCode from the Environment
+# Launch VSCode from the Environment
   code
 
 # Use the Environment in VSCode
@@ -32,6 +32,6 @@ Others (or you) can recreate the environment later with:
   pip install -r requirements.txt
 
 📌 Use the rmdir command to remove the folder and all its contents.
-  rmdir /s /q myenv
+  rmdir /s /q myenv*
       /s removes all subdirectories and files in the specified directory in addition to the directory itself.
       /q is for "quiet mode," which means you won't be prompted to confirm the deletion.
