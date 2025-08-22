@@ -1,8 +1,8 @@
 # Create a Virtual Environment
-python -m venv myenv       # Creates a folder named (myenv) with its own Python and pip
+python -m venv myenv       # Creates a folder named (myenv*) with its own Python and pip
 
 # Activate the Virtual Environment from CMD (Windows):
-myenv\Scripts\activate
+myenv*\Scripts\activate
 
 # Install a specific version of a package:
 pip install package_name==version
