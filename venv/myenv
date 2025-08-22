@@ -23,6 +23,7 @@
     Press Ctrl+Shift+P → Search: Python: Select Interpreter
     Choose the one from .venv or myenv\Scripts\python.exe
     VSCode will now use the virtual environment Python.
+💡 No need to activate manually — VS Code handles environment activation internally.
 
 📌 Tip: Save Your Environment
 After installing packages, save the list for future use:
