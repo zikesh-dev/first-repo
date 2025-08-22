@@ -1,8 +1,11 @@
+# Launch Jupyter from the Environment
+  jupyter notebook
+
 🔹 Add the virtual environment to jupyter after activating the venv in cmd
-To use your virtual env (myvenv) as a Jupyter kernel:
+To use your virtual env (myenv*) as a Jupyter kernel:
 
 pip install ipykernel
-python -m ipykernel install --user --name=myvenv --display-name "My Project (myenv)"
+python -m ipykernel install --user --name=myenv* --display-name "My Project (myenv)"
 
 Then it’ll show up as a selectable kernel in Jupyter! it'll show up as:
 Python [My Project (myenv)]
